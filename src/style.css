@@ -1,0 +1,84 @@
+:root {
+  --button-color: rgba(138, 88, 31, 0.39);
+  --button-text: #ffffff;
+  --button-border: 2px solid #bd8a8ac5;
+  --border-radius: 5px;
+  --button-shadow: 3px 7px 8px rgba(36, 33, 33, 0.205);
+  --gradient: linear-gradient(
+    rgba(206, 155, 97, 0.637) 30%,
+    rgba(97, 114, 207, 0.089) 60.8%
+  );
+}
+body {
+  text-align: center;
+  margin: 100px;
+  background: var(--gradient);
+}
+.name {
+  font-size: 70px;
+}
+#button {
+  display: flex;
+
+  border: var(--button-border);
+  border-radius: var(--border-radius);
+  background-color: var(--button-color);
+  color: var(--button-text);
+  text-decoration: none;
+  font-size: 20px;
+  display: inline;
+  padding: 10px 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: var(--button-shadow);
+}
+#button2 {
+  display: flex;
+  border: var(--button-border);
+  border-radius: var(--border-radius);
+  background-color: var(--button-text);
+  color: var(--button-color);
+  text-decoration: none;
+  font-size: 20px;
+  display: inline;
+  padding: 10px 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: var(--button-shadow);
+}
+.aboutme-fullpage {
+  margin: 150px 280px;
+}
+.aboutme {
+  font-size: 70px;
+}
+#frontend {
+  font-size: 25px;
+}
+.bodytext {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 80px;
+}
+
+#text-split,
+#text-split1 {
+  border: var(--button-border);
+  border-radius: var(--border-radius);
+  background-color: var(--button-color);
+  color: var(--button-text);
+  line-height: 1.5;
+  padding: 40px 60px;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+.contactme {
+  font-size: 55px;
+}
+#myemail {
+  text-decoration: none;
+}
+#myemail:hover {
+  text-decoration: underline;
+}
